@@ -9,3 +9,16 @@ This is v2 of logsentinel-ai that updates A one-time script that loads a log fil
 - Flags & prints/logs alerts when anomalies are found
 
 
+## 🚀 New: Real-Time AI Agent Mode
+
+You can now run LogSentinel as a **live agent** that monitors logs continuously — just like lightweight endpoint detection (EDR/MDR) systems.
+
+```bash
+python src/agent.py
+```
+
+Watch the specified log file in real time (e.g., syslog, auth.log)
+Parse new log entries on the fly
+Extract AI-friendly features
+Score using the trained Isolation Forest model
+Print an alert if an anomaly is detected
