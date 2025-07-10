@@ -14,6 +14,8 @@ This is v2 of logsentinel-ai that updates A one-time script that loads a log fil
 You can now run LogSentinel as a **live agent** that monitors logs continuously — just like lightweight endpoint detection (EDR/MDR) systems.
 
 ```bash
+pip install -r requirements.txt
+
 python src/agent.py
 ```
 
